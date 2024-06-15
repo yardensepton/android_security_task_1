@@ -14,3 +14,8 @@ This task involves checking specific conditions related to the device's settings
 3. **Sensors Enabled and Device at 90 Degrees**
    - Ensure that the device's sensors are enabled.
    - Confirm that the device is positioned at a 90-degree angle.
+  
+
+## Demo
+https://github.com/yardensepton/android_security_task_1/assets/98481395/37fccb5e-9db1-4dc2-b03f-46177f21d803
+
