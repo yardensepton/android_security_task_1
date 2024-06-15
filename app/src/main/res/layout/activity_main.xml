@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Login App"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+<LinearLayout
+    android:id="@+id/icons"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/login"
+    android:layout_centerHorizontal="true"
+    android:weightSum="11"
+    >
+
+    <ImageView
+        android:id="@+id/alarm"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="50dp"
+        android:background="@drawable/alarm" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1">
+
+    </View>
+    <ImageView
+        android:id="@+id/wifi"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="50dp"
+        android:background="@drawable/wifi" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1">
+
+    </View>
+    <ImageView
+        android:id="@+id/vibrate"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="50dp"
+        android:background="@drawable/vibrate" />
+
+</LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_below="@id/login"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/navy"
+        android:layout_margin="25dp"
+        android:layout_centerHorizontal="true"
+        >
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</RelativeLayout>
